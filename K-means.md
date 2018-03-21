@@ -20,3 +20,14 @@ Cluster is a type of **Unsupervised Learning**. This is very often used when you
 in the given data. 
 
 K-Means is a very simple algorithm which clusters the data into K number of clusters. The following image is an example of K-Means Clustering.
+
+![Clustering](cluster.jpg)   
+
+### Algorithm
+Assuming we have inputs $x_1, $x_2, $x_3, ..., $x_n and value of **K**
+* **Step 1** - Pick K random points as cluster centers called centroids.
+* **Step 2** - Assign each $x_i to nearest cluster by calculating its distance to each centroid
+* **Step 3** - Find new cluster center by taking the average of the assigned points
+* **Step 4** - Repeat Step 2 and 3 until none of the cluster assignments change
+
+[Python implementation](https://github.com/mubaris/friendly-fortnight)
