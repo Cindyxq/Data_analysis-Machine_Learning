@@ -32,7 +32,7 @@ Assuming we have inputs $x_1, $x_2, $x_3, ..., $x_n and value of **K**
 
 [Python implementation](https://github.com/mubaris/friendly-fortnight)
 
-How to choose the K value? **Elbow Method**
+How to choose the K value? [Elbow Method](https://pythonprogramminglanguage.com/kmeans-elbow-method/)
 
 ### 使用场景
 不清楚用户有几类时，尝试性的将用户进行分类，并根据每类用户的不同特征，决定下一步动作。
