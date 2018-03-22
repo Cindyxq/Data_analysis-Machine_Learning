@@ -31,3 +31,28 @@ Assuming we have inputs $x_1, $x_2, $x_3, ..., $x_n and value of **K**
 * **Step 4** - Repeat Step 2 and 3 until none of the cluster assignments change
 
 [Python implementation](https://github.com/mubaris/friendly-fortnight)
+
+How to choose the K value? **Elbow Method**
+
+### 使用场景
+不清楚用户有几类时，尝试性的将用户进行分类，并根据每类用户的不同特征，决定下一步动作。
+举例，对于一个超市/电商网站/综合零售商，可以根据用户的购买行为，将其分为“年轻白领”、“一家三口”、“家有一老”、”初得子女“等等类型，然后通过邮件、短信、推送通知等，向其发起不同的优惠活动。
+
+[Andrew Ng K-Means](https://www.coursera.org/learn/machine-learning/lecture/93VPG/k-means-algorithm
+)
+
+## Python data analysis library  (Anaconda)
+* [numpy](https://docs.scipy.org/doc/numpy-1.13.0/user/quickstart.html)
+  以矩阵为基础的数学计算模块，纯数学存储和处理大型矩阵。
+* [pandas](https://pandas.pydata.org/)
+  数据分析。基于Numpy的一种工具，为了解决数据分析任务而创建的。纳入了大量的库和一些标准的数据模型，提供了高效地操作大型数据集所需的工具。
+  Series, DataFrame
+* [matplotlib](https://matplotlib.org/)
+  [seaborn](https://seaborn.pydata.org/)
+  绘图
+* [scipy](https://www.scipy.org/)
+  数值计算库，在Numpy库的基础上增加了众多的数学，科学以及工程计算中常用的库函数。它包括统计,优化,整合,线性代数模块,傅里叶变换,信号和图像处理,常微分方程求解器等等。
+* [sklearn](http://scikit-learn.org/stable/)
+  Machine Learning in Python
+  eg: from sklearn.cluster import **KMeans**
+
