@@ -53,6 +53,6 @@ How to choose the K value? **Elbow Method**
 * [scipy](https://www.scipy.org/)
   数值计算库，在Numpy库的基础上增加了众多的数学，科学以及工程计算中常用的库函数。它包括统计,优化,整合,线性代数模块,傅里叶变换,信号和图像处理,常微分方程求解器等等。
 * [sklearn](http://scikit-learn.org/stable/)
-  Machine Learning in Python
-  eg: from sklearn.cluster import **KMeans**
+  Machine Learning in Python<br>
+  eg: from sklearn.cluster import **KMeans**
 
